@@ -13,6 +13,14 @@
 		6101901D1F177377000B0703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6101901B1F177377000B0703 /* LaunchScreen.storyboard */; };
 		610190281F177377000B0703 /* DKSPushAndPresentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190271F177377000B0703 /* DKSPushAndPresentTests.m */; };
 		610190331F177377000B0703 /* DKSPushAndPresentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190321F177377000B0703 /* DKSPushAndPresentUITests.m */; };
+		610190431F177390000B0703 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190411F177390000B0703 /* AViewController.m */; };
+		610190441F177390000B0703 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610190421F177390000B0703 /* AViewController.xib */; };
+		610190481F17739B000B0703 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190461F17739B000B0703 /* BViewController.m */; };
+		610190491F17739B000B0703 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610190471F17739B000B0703 /* BViewController.xib */; };
+		6101904D1F1773A5000B0703 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6101904B1F1773A5000B0703 /* CViewController.m */; };
+		6101904E1F1773A5000B0703 /* CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6101904C1F1773A5000B0703 /* CViewController.xib */; };
+		610190521F1773AF000B0703 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610190501F1773AF000B0703 /* DViewController.m */; };
+		610190531F1773AF000B0703 /* DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610190511F1773AF000B0703 /* DViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,18 @@
 		6101902E1F177377000B0703 /* DKSPushAndPresentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSPushAndPresentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		610190321F177377000B0703 /* DKSPushAndPresentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSPushAndPresentUITests.m; sourceTree = "<group>"; };
 		610190341F177377000B0703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610190401F177390000B0703 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		610190411F177390000B0703 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		610190421F177390000B0703 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		610190451F17739B000B0703 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		610190461F17739B000B0703 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		610190471F17739B000B0703 /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		6101904A1F1773A5000B0703 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		6101904B1F1773A5000B0703 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		6101904C1F1773A5000B0703 /* CViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CViewController.xib; sourceTree = "<group>"; };
+		6101904F1F1773AF000B0703 /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		610190501F1773AF000B0703 /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		610190511F1773AF000B0703 /* DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +118,18 @@
 			children = (
 				610190161F177377000B0703 /* AppDelegate.h */,
 				610190171F177377000B0703 /* AppDelegate.m */,
+				610190401F177390000B0703 /* AViewController.h */,
+				610190411F177390000B0703 /* AViewController.m */,
+				610190421F177390000B0703 /* AViewController.xib */,
+				610190451F17739B000B0703 /* BViewController.h */,
+				610190461F17739B000B0703 /* BViewController.m */,
+				610190471F17739B000B0703 /* BViewController.xib */,
+				6101904A1F1773A5000B0703 /* CViewController.h */,
+				6101904B1F1773A5000B0703 /* CViewController.m */,
+				6101904C1F1773A5000B0703 /* CViewController.xib */,
+				6101904F1F1773AF000B0703 /* DViewController.h */,
+				610190501F1773AF000B0703 /* DViewController.m */,
+				610190511F1773AF000B0703 /* DViewController.xib */,
 				610190191F177377000B0703 /* Assets.xcassets */,
 				6101901B1F177377000B0703 /* LaunchScreen.storyboard */,
 				6101901E1F177377000B0703 /* Info.plist */,
@@ -241,6 +273,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6101904E1F1773A5000B0703 /* CViewController.xib in Resources */,
+				610190441F177390000B0703 /* AViewController.xib in Resources */,
+				610190491F17739B000B0703 /* BViewController.xib in Resources */,
+				610190531F1773AF000B0703 /* DViewController.xib in Resources */,
 				6101901A1F177377000B0703 /* Assets.xcassets in Resources */,
 				6101901D1F177377000B0703 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -267,6 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6101904D1F1773A5000B0703 /* CViewController.m in Sources */,
+				610190431F177390000B0703 /* AViewController.m in Sources */,
+				610190481F17739B000B0703 /* BViewController.m in Sources */,
+				610190521F1773AF000B0703 /* DViewController.m in Sources */,
 				610190181F177377000B0703 /* AppDelegate.m in Sources */,
 				610190151F177377000B0703 /* main.m in Sources */,
 			);
